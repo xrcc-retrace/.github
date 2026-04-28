@@ -1,6 +1,6 @@
 <div align="center">
 
-# Retrace
+<img src="https://github.com/xrcc-retrace/.github/raw/main/profile/assets/retrace-hero.png" alt="Retrace" width="100%" />
 
 ### Record an expert once. Coach every learner forever.
 
