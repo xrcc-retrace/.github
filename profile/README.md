@@ -8,7 +8,7 @@ An AI coaching system that turns one expert demonstration into voice-guided, vis
 
 Built for the **XRCC Berlin 2026** hackathon.
 
-[**▶ Watch the demo**](https://www.youtube.com/watch?v=gMlgZh2H5eE) &nbsp;·&nbsp; [**🌐 Backend**](https://retracexrcc.duckdns.org/health)
+[**▶ Watch the demo**](https://www.youtube.com/watch?v=azK-CLpyRQg) &nbsp;·&nbsp; [**🎬 Full walkthrough video**](https://www.youtube.com/watch?v=CqUj5HtP0QE) &nbsp;·&nbsp; [**📱 iOS repo**](https://github.com/xrcc-retrace/dat-ios-test) &nbsp;·&nbsp; [**🌐 Backend**](https://retracexrcc.duckdns.org/health)
 
 </div>
 
