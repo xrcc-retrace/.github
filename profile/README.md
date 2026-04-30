@@ -8,6 +8,8 @@ An AI coaching system that turns one expert demonstration into voice-guided, vis
 
 Built for the **XRCC Berlin 2026** hackathon.
 
+[**▶ Watch the demo**](https://www.youtube.com/watch?v=gMlgZh2H5eE) &nbsp;·&nbsp; [**🌐 Backend**](https://retracexrcc.duckdns.org/health)
+
 </div>
 
 ---
@@ -17,7 +19,6 @@ Built for the **XRCC Berlin 2026** hackathon.
 | Component | Status | Where |
 | --- | --- | --- |
 | Backend API | **Live** | `https://retracexrcc.duckdns.org` &nbsp; — &nbsp; AWS Lightsail (Ubuntu 22.04, `ap-southeast-1`, migrating to `eu-central-1` before the Berlin demo) |
-| iOS app | **Live** | TestFlight (invite-only beta) |
 | Continuous deploy | **Active** | GitHub Actions → SSH into Lightsail → `git pull` + `pip install` + `systemctl restart` + `/health` check on every push to `main` |
 | TLS | **Auto-renewed** | Caddy + Let's Encrypt, fronting `localhost:8000` |
 
