@@ -168,7 +168,6 @@ If the learner doesn't *have* a procedure for their problem — say their humidi
 | --- | --- |
 | [`retrace-server`](https://github.com/xrcc-retrace/retrace-server) | FastAPI backend, Gemini integration, expert/learner/troubleshoot pipelines, expert interviewer, visual-verification oracle, ephemeral token minting, Bonjour, manual ingest. MIT. |
 | [`retrace-ios`](https://github.com/xrcc-retrace/retrace-ios) | SwiftUI iOS client. Forked from Meta's `CameraAccess` DAT SDK sample, extended into the full Retrace phone app — capture, coaching, troubleshoot, Ray-Ban HUD. Source-available. |
-| [`retrace-website`](https://github.com/xrcc-retrace/retrace-website) | Marketing site at [retracelab.com](https://retracelab.com). |
 
 ---
 
