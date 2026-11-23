@@ -10,16 +10,21 @@ Built for the **XRCC Berlin 2026** hackathon — 🥈 **2nd place**.
 
 Development closed out in July 2026; the repos are preserved as complete, working snapshots and the demo API remains live.
 
-[**▶ Watch the demo**](https://www.youtube.com/watch?v=azK-CLpyRQg) &nbsp;·&nbsp; [**🎬 Full walkthrough video**](https://www.youtube.com/watch?v=CqUj5HtP0QE) &nbsp;·&nbsp; [**📱 iOS repo**](https://github.com/xrcc-retrace/retrace-ios) &nbsp;·&nbsp; [**🌐 Backend**](https://retracexrcc.duckdns.org/health)
+[**▶ Watch the demo**](https://www.youtube.com/watch?v=azK-CLpyRQg) &nbsp;·&nbsp; [**🎬 Full walkthrough video**](https://www.youtube.com/watch?v=CqUj5HtP0QE) &nbsp;·&nbsp; [**📱 iOS repo**](https://github.com/xrcc-retrace/retrace-ios) &nbsp;·&nbsp; [**🛰 Backend**](https://github.com/xrcc-retrace/retrace-server)
 
 </div>
 
 ---
 
-## Live now
+## Status
 
 | Component | Status | Where |
 | --- | --- | --- |
+| Website | **Live** | [retracelab.com](https://retracelab.com) |
+| Backend + iOS source | **Public** | [`retrace-server`](https://github.com/xrcc-retrace/retrace-server) · [`retrace-ios`](https://github.com/xrcc-retrace/retrace-ios) |
+| Hosted backend | **Retired** | Ran on AWS Lightsail (Caddy + uvicorn, CI deploy on push) through the hackathon; run it locally from `retrace-server` |
+
+--- | --- | --- |
 | Backend API | **Live** | `https://retracexrcc.duckdns.org` &nbsp; — &nbsp; AWS Lightsail (Ubuntu 22.04, `eu-central-1` Frankfurt) |
 | Continuous deploy | **Active** | GitHub Actions → SSH into Lightsail → `git pull` + `pip install` + `systemctl restart` + `/health` check on every push to `main` |
 | TLS | **Auto-renewed** | Caddy + Let's Encrypt, fronting `localhost:8000` |
@@ -161,8 +166,9 @@ If the learner doesn't *have* a procedure for their problem — say their humidi
 
 | Repo | What's in it |
 | --- | --- |
-| [`main-local-server-test`](https://github.com/xrcc-retrace/main-local-server-test) | FastAPI backend, Gemini integration, expert/learner/troubleshoot pipelines, ephemeral token minting, Bonjour, manual ingest, deployment workflow. |
-| [`retrace-ios`](https://github.com/xrcc-retrace/retrace-ios) | SwiftUI iOS client. Forked from Meta's `CameraAccess` DAT SDK sample, extended into the full Retrace phone app — capture, coaching, troubleshoot, Ray-Ban HUD. |
+| [`retrace-server`](https://github.com/xrcc-retrace/retrace-server) | FastAPI backend, Gemini integration, expert/learner/troubleshoot pipelines, expert interviewer, visual-verification oracle, ephemeral token minting, Bonjour, manual ingest. MIT. |
+| [`retrace-ios`](https://github.com/xrcc-retrace/retrace-ios) | SwiftUI iOS client. Forked from Meta's `CameraAccess` DAT SDK sample, extended into the full Retrace phone app — capture, coaching, troubleshoot, Ray-Ban HUD. Source-available. |
+| [`retrace-website`](https://github.com/xrcc-retrace/retrace-website) | Marketing site at [retracelab.com](https://retracelab.com). |
 
 ---
 
